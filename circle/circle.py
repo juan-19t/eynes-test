@@ -26,7 +26,7 @@ class Circle():
         area = math.pi * (self.radius ** 2)
         return area
     
-    def get_perimetro(self):
+    def get_perimeter(self):
         # la variable 'd' hace referencia al diametro
         d = self.radius*2
         return math.pi * d
